@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARMDHN</title>
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- remix icons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="logo">MARMDHN.</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="top-btn">
+        <a href="#" class="h-btn">Contact me</a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="main-content" data-aos="fade-in">
+        <h4>Halo, semuanya!</h4>
+        <h1>Saya, <br /><span>M Akbar Ramadhan</span></h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et minus
+          accusantium perspiciatis, animi iste dolor error, quaerat labore at
+          sunt tempore, asperiores atque itaque dicta.
+        </p>
+        <div class="social">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+
+        <div class="main-btn">
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img" data-aos="zoom-in-down">
+        <img src="./img/about.png" />
+      </div>
+
+      <div class="about-text" data-aos="zoom-in-up">
+        <h2>
+          Saya seorang <br />
+          <span>Front End Developer</span>
+        </h2>
+        <div class="exp-area">
+          <p class="exp">
+            Saya merupakan seorang fresh graduate IT dengan keahlian dalam
+            pemrograman komputer dari program studi Teknologi Informasi ITTelkom
+            Surabaya. Memiliki minat dan pengalaman dalam pengembangan aplikasi
+            web menggunakan
+            <span
+              >HTML, CSS, dan Javascript, serta aplikasi mobile dengan framework
+              Flutter dan pemahaman tentang database menggunakan MySQL</span
+            >. Saya memiliki kemampuan analitis, motivasi yang tinggi, dan
+            keterampilan dalam menyelesaikan masalah pemrograman serta dapat
+            bekerja secara mandiri maupun dalam tim dengan baik.
+          </p>
+        </div>
+        <a href="#portfolio" class="btn">Lihat Semua Proyek</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Portfolio</span></h2>
+      </div>
+
+      <div class="portfolio-content" data-aos="zoom-in-up">
+        <div class="row">
+          <img src="./img/portfolio/port-1.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Mobile Apps (Grapesense)</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Final Project (Skripsi S1)</h4>
+        </div>
+        <div class="row">
+          <img src="./img/portfolio/port-2.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Mobile Apps (OK.Docs)</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Final Project Kerja Praktek di PT Otak Kanan</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="center-text" data-aos="fade-down">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-form" data-aos="zoom-in">
+        <form action="">
+          <input type="text" placeholder="Masukkan Nama" required />
+          <input type="email" placeholder="Masukkan Alamat Email" required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Masukkan Pesan Anda"
+            required
+          ></textarea>
+          <input type="submit" class="send-btn" name="" value="Kirim Pesan" />
+        </form>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="copyright">
+        <p>2023 marmdhn, All Rights Reserved.</p>
+      </div>
+
+      <a href="#home" class="scroll-top">
+        <i class="ri-arrow-up-s-fill"></i>
+      </a>
+    </div>
+
+    <!-- js link -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>
